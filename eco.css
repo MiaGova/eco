@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;;
+  position: relative;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+
+  to {
+      opacity: 1
+  }
+}
+header{
+  width: 100%;
+  height: 82px;
+}
+.nav-cont{
+  height: 62px;
+  top: 30px;
+  
+}
+.nav-text{
+  display: inline-flex;
+  justify-content: space-between;
+}
+header  .logo-sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+padding-left: 20px;
+}
+header .logo img{
+    width: 100px;
+}
+
+
+header .registration{
+    display: flex;
+    width: 25%;
+    justify-content: end;
+}
+header .registration a { 
+  color: #296739;
+  
+}
+header .nav-cont {
+background: #296739;
+}
+header .nav-cont a {
+  color: #ffff;
+  line-height: 38px;
+  font-size: 24px;
+  font-weight: 400;
+  
+}
+header .nav-cont  a:hover{
+color: #FFD64D;
+}
+header .registration a{
+text-align: center;
+}
+header nav a {
+  padding: 10px 20px;
+}
+
+.users{
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile{
+  width: 339px;
+  height: 512px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile > p{
+  /* font family: Scheherazade; */
+font-style: bold;
+font-size: 48px;
+line-height: 81px;
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 6%;
+}
+.why{
+  width: 90%;
+  margin: 0 auto;
+}
+.hero-content{
+  margin-top: 90px;
+  margin-left: auto;
+}
+.hero-img{
+  margin-top: 50px;
+}
+.home .container{
+  display: flex;
+}
+.home .container .hero-content {
+  width: 50px;
+}
+.home .container .hero-content h1{
+  color: #296739;
+width: 374px;
+height: 239px;
+font-size: 64px;
+text-align: center;
+font-family: ramaraja;
+}
+.home .container .hero-content p{
+  font-size: 24px;
+  margin: 35px;
+  color:#000938;
+}
+.he h1 {
+ color: #296739
+}
+.home .container .hero-img {
+  width: 50%;
+}
